@@ -1,9 +1,19 @@
+*{
+    margin: 0;
+}
+
 html{
-    font-family: Roboto, arial;
+    font-family: Roboto, Arial;
+    /* width: 1440px; */
+}
+
+button{
+    font-family: Roboto, Arial;
 }
 
 .container{
     max-width: 1110px;
+    margin: 0 auto;
 }
 
 /*   ---   header   ---   */
@@ -14,6 +24,8 @@ html{
     align-items: center;
     text-align: center;
     position: relative;
+    height: 60px;
+
 }
 
 .nav{
@@ -65,6 +77,44 @@ html{
     font-size: 18px;
     color: #505F98;
     width: 539px;
-    height: 132px;
+}
+
+.hero_btn_1{
+    padding: 5px;
+    background-color: #111B47;
+    color: white;
+    line-height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    width: 189px;
+    border-radius: 2px;
+    border: 2px solid #111B47;
+    margin-right: 30px;
+    margin-top: 69px;
+}
+
+.hero_btn_2{
+    text-align: center;
+    width: 189px;
+    padding: 5px;
+    color: #091133;
+    line-height: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 2px solid #091133;
+    border-radius: 2px;
+    background-color: transparent;
+    margin-top: 69px
+}
+
+.hero{
+    padding-bottom: 320px;
+}
+
+.hero_bg{
+    background: url(img/designer_1.png);
+    background-position: 150% bottom;
+    background-repeat: no-repeat;
 }
 
