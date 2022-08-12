@@ -113,8 +113,74 @@ button{
 }
 
 .hero_bg{
-    background: url(img/designer_1.png);
-    background-position: 150% bottom;
-    background-repeat: no-repeat;
+    position: relative;
+    height: 1112px;
+    overflow: hidden;
 }
 
+.hero_bg:before{
+    background: url(img/designer_1.png); 
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: -49px;
+    left: 50%;
+    transform: translateX(-300px);
+    z-index: -1;
+}
+
+/*   ---   page 2   ---   */
+
+.h2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;
+    color: #091133;
+    margin-top: 160px;
+}
+
+.page_desc{
+    color: #6F7CB2;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+    margin-bottom: 80px;
+}
+
+.page_items{
+    display: flex;
+}
+
+.page_item{
+    width: 255px;
+    margin-right: 30px;
+
+}
+
+.item_title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color:#091133;
+    margin-top: 14px;
+}
+
+.item_desc{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #5D6970;
+    margin-top: 6px;
+}
+
+.page_2{
+    display: flex;
+}
+
+.page_bg{
+    margin-top: 110px;
+}
